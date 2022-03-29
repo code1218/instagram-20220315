@@ -52,6 +52,7 @@ body {
 .item-box {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     margin-bottom: 10px;
     border: 1px solid #dbdbdb;
@@ -176,4 +177,17 @@ body {
 .facebook-login span i {
     font-size: 18px;
     margin: 0px 5px;
+}
+
+.signup-items p {
+    margin: 15px;
+}
+
+.signup-items p a {
+    font-weight: 500;
+    color: #0095f6;
+}
+
+.r-content-footer {
+    height: 102px;
 }
