@@ -136,6 +136,7 @@
     left: 8px;
 
     color: #8e8e8e;
+    transition: 0.2s;
 }
 
 .input-data input {
@@ -160,6 +161,20 @@
     margin: 0px 8px;
 
     color: rgb(255, 97, 97)
+}
+
+.password-visible {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 3px;
+    margin-right: 8px;
+    font-weight: 500;
+    color: #262626;
+    width: 100%;
+    max-width: 85px;
+    cursor: pointer;
 }
 
 .submit-btn {
