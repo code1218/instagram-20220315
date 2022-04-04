@@ -6,6 +6,8 @@
     border-width: 0px 0px 1px;
     border-color: #dbdbdb;
     border-style: solid;
+
+    background-color: white;
 }
 
 .nav-bar {
@@ -22,7 +24,53 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 100px;
+    width: 120px;
+}
+
+.b-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 103px;
+    height: 29px;
+
+    cursor: pointer;
+}
+
+.b-logo img {
+    max-width: 103px;
+}
+
+.nav-bar-search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 7px;
+    padding: 0px 16px;
+
+    height: 36px;
+
+    background-color: #efefef;
+}
+
+.nav-bar-search-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 236px;
+    height: 25px;
+}
+
+.nav-bar-search-input input {
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+
+    background-color: #efefef;
 }
 
 .nav-bar-items li {
@@ -33,8 +81,27 @@
     height: 24px;
 
     overflow: hidden;
+
+    cursor: pointer;
 }
 
 .nav-bar-items li i {
     font-size: 21px;
+}
+
+.profile-img-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: hidden;
+    border-radius: 50%;
+    max-width: 24px;
+    max-height: 24px;
+
+    overflow: hidden;
+}
+
+.profile-img-border img {
+    width: 100%;
 }
