@@ -1,0 +1,40 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 0px 0px 1px;
+    border-color: #dbdbdb;
+    border-style: solid;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 975px;
+    height: 60px;
+}
+
+.nav-bar-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100px;
+}
+
+.nav-bar-items li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+
+    overflow: hidden;
+}
+
+.nav-bar-items li i {
+    font-size: 21px;
+}
